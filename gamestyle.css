@@ -1,3 +1,5 @@
+
+
 *{
   padding: 0;
   margin: 0;
@@ -6,9 +8,18 @@
 
 /*vh - 1% of viewport height*/
 body{
+  
+  background-image: url("images/background.jpg");
+  background-attachment: fixed;
+}
+.game-area{
   height: 100vh;
   display: flex;
 }
+
+/* div{
+  cursor: url("images/cardpattern.png");
+} */
 
 .memory-game{
   width: 640px;
@@ -27,6 +38,11 @@ body{
   transform-style: preserve-3d;
   transition: transform .5s;
   z-index: 100;
+}
+
+.memory-card:hover{
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .memory-card:active{
@@ -54,13 +70,11 @@ body{
 
 
 
-@media screen and (max-width: 1171px) {
-  }
 
  @media screen and (max-width: 660px) {
     .memory-game{
-      width: 450px;
-      height: 600px;
+      width: 402px;
+      height: 536px;
       margin: auto;
       display: flex;
       flex-wrap: wrap;
@@ -76,10 +90,14 @@ body{
       transition: transform .5s;
       z-index: 100;
     }
+    
+    .memory-card:hover{
+      cursor: pointer;
+    }
  
   }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 445px) {
   .memory-game{
       width: 90vw;
       height: 120vw;
@@ -98,5 +116,45 @@ body{
       transition: transform .5s;
       z-index: 100;
     }
+    .memory-card:hover{
+      cursor: pointer;
+    }
     
   }
+
+  #overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 10; /* Specify a stack order in case you're using a different order for other elements */
+  }
+  
+  #play-again-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    padding: 5px 30px;
+    background: rgba(255,255,255,0.5);
+    border: 5px solid rgba(0,0,0,1);
+    border-radius: 30px;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+  #play-again-button:hover{
+    transition: all 1s ease-out;
+    background: rgba(0,0,0,0.7);
+    border: 5px solid white;
+    color: white;
+    cursor: pointer;
+  }
+
+ 
+  

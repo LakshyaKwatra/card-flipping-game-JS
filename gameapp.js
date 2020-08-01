@@ -294,6 +294,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   
   const grid = document.querySelector('.memory-game')
+  
   // <div class="memory-card">
   //     <img src="images/bd1.png" alt="" class="front-face">
   //     <img src="images/cheeseburger.png" alt="" class="back-face">
@@ -305,7 +306,7 @@ document.addEventListener('DOMContentLoaded', () => {
     lockboard = false;
     firstCard = null;
     secondCard = null;
-    
+
     imgData.sort(() => 0.5 - Math.random())
     for (let i = 0; i < 6; i++){
       cardArray.push(imgData[i])
@@ -366,30 +367,25 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function restartGame(){
-    var cards = document.querySelectorAll('.memory-card')
-    setTimeout(() => {
-      cards.forEach(element => {
-        element.parentNode.removeChild(element);
-      });
-      createBoard();
-    },2000)
+    onOverlay();
+    var playAgainButton = document.querySelector('.play-again')
+    playAgainButton.addEventListener('click',offOverlay);
+    
   }
 
-  // function flipCard(){
-  //   var cardImg = this.getAttribute('src')
-  //   if(cardImg === 'images/blank.png'){
-  //     console.log(Math.random())
-  //     var cardId = this.getAttribute('data-id')
-  //     cardsChosen.push(cardArray[cardId].name)
-  //     cardsChosenId.push(cardId)
-  //     this.setAttribute('src',cardArray[cardId].img)
-  //     if (cardsChosen.length === 2){
-  //       setTimeout(checkForMatch, 500)
-  //     }
-  //   }
-  // }
+
+  function onOverlay() {
+    document.getElementById("overlay").style.display = "block";
+  }
   
-
-
-  createBoard()
+  function offOverlay() {
+    document.getElementById("overlay").style.display = "none";
+    var cards = document.querySelectorAll('.memory-card')
+      cards.forEach(element => {
+        element.parentNode.removeChild(element);
+    });
+    createBoard();
+  }
+  
+  restartGame();
 })
