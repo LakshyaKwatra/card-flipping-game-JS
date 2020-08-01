@@ -1,3 +1,5 @@
+//Lakshya Kwatra
+
 document.addEventListener('DOMContentLoaded', () => {
   
   const imgData = [
