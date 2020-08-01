@@ -5,287 +5,287 @@ document.addEventListener('DOMContentLoaded', () => {
   const imgData = [
     {
       name: 'bd1',
-      img: 'images/bd1.png'
+      img: 'images/bd1.jpg'
     },
     {
       name: 'bd2',
-      img: 'images/bd2.png'
+      img: 'images/bd2.jpg'
     },
     {
       name: 'bd3',
-      img: 'images/bd3.png'
+      img: 'images/bd3.jpg'
     },
     {
       name: 'bd4',
-      img: 'images/bd4.png'
+      img: 'images/bd4.jpg'
     },
     {
       name: 'bd5',
-      img: 'images/bd5.png'
+      img: 'images/bd5.jpg'
     },
     {
       name: 'bd6',
-      img: 'images/bd6.png'
+      img: 'images/bd6.jpg'
     },
     {
       name: 'bd7',
-      img: 'images/bd7.png'
+      img: 'images/bd7.jpg'
     },
     {
       name: 'bd8',
-      img: 'images/bd8.png'
+      img: 'images/bd8.jpg'
     },
     {
       name: 'bd9',
-      img: 'images/bd9.png'
+      img: 'images/bd9.jpg'
     },
     {
       name: 'bd10',
-      img: 'images/bd10.png'
+      img: 'images/bd10.jpg'
     },
     {
       name: 'bd11',
-      img: 'images/bd11.png'
+      img: 'images/bd11.jpg'
     },
     {
       name: 'bd12',
-      img: 'images/bd12.png'
+      img: 'images/bd12.jpg'
     },
     {
       name: 'bd13',
-      img: 'images/bd13.png'
+      img: 'images/bd13.jpg'
     },
     {
       name: 'bd14',
-      img: 'images/bd14.png'
+      img: 'images/bd14.jpg'
     },
     {
       name: 'bd15',
-      img: 'images/bd15.png'
+      img: 'images/bd15.jpg'
     },
     {
       name: 'bd16',
-      img: 'images/bd16.png'
+      img: 'images/bd16.jpg'
     },
     {
       name: 'bd17',
-      img: 'images/bd17.png'
+      img: 'images/bd17.jpg'
     },
     {
       name: 'bd18',
-      img: 'images/bd18.png'
+      img: 'images/bd18.jpg'
     },
     {
       name: 'bd19',
-      img: 'images/bd19.png'
+      img: 'images/bd19.jpg'
     },
     {
       name: 'bd20',
-      img: 'images/bd20.png'
+      img: 'images/bd20.jpg'
     },
     {
       name: 'bd21',
-      img: 'images/bd21.png'
+      img: 'images/bd21.jpg'
     },
     {
       name: 'bd22',
-      img: 'images/bd22.png'
+      img: 'images/bd22.jpg'
     },
     {
       name: 'bd23',
-      img: 'images/bd23.png'
+      img: 'images/bd23.jpg'
     },
     {
       name: 'bd24',
-      img: 'images/bd24.png'
+      img: 'images/bd24.jpg'
     },
     {
       name: 'bd25',
-      img: 'images/bd25.png'
+      img: 'images/bd25.jpg'
     },
     {
       name: 'bd26',
-      img: 'images/bd26.png'
+      img: 'images/bd26.jpg'
     },
     {
       name: 'bd27',
-      img: 'images/bd27.png'
+      img: 'images/bd27.jpg'
     },
     {
       name: 'bd28',
-      img: 'images/bd28.png'
+      img: 'images/bd28.jpg'
     },
     {
       name: 'bd29',
-      img: 'images/bd29.png'
+      img: 'images/bd29.jpg'
     },
     {
       name: 'bd30',
-      img: 'images/bd30.png'
+      img: 'images/bd30.jpg'
     },
     {
       name: 'bd31',
-      img: 'images/bd31.png'
+      img: 'images/bd31.jpg'
     },
     {
       name: 'bd32',
-      img: 'images/bd32.png'
+      img: 'images/bd32.jpg'
     },
     {
       name: 'bd33',
-      img: 'images/bd33.png'
+      img: 'images/bd33.jpg'
     },
     {
       name: 'bd34',
-      img: 'images/bd34.png'
+      img: 'images/bd34.jpg'
     },
     {
       name: 'bd35',
-      img: 'images/bd35.png'
+      img: 'images/bd35.jpg'
     },
     {
       name: 'bd36',
-      img: 'images/bd36.png'
+      img: 'images/bd36.jpg'
     },
     {
       name: 'bd37',
-      img: 'images/bd37.png'
+      img: 'images/bd37.jpg'
     },
     {
       name: 'bd38',
-      img: 'images/bd38.png'
+      img: 'images/bd38.jpg'
     },
     {
       name: 'bd39',
-      img: 'images/bd39.png'
+      img: 'images/bd39.jpg'
     },
     {
       name: 'bd40',
-      img: 'images/bd40.png'
+      img: 'images/bd40.jpg'
     },
     {
       name: 'bd41',
-      img: 'images/bd41.png'
+      img: 'images/bd41.jpg'
     },
     {
       name: 'bd42',
-      img: 'images/bd42.png'
+      img: 'images/bd42.jpg'
     },
     {
       name: 'bd43',
-      img: 'images/bd43.png'
+      img: 'images/bd43.jpg'
     },
     {
       name: 'bd44',
-      img: 'images/bd44.png'
+      img: 'images/bd44.jpg'
     },
     {
       name: 'bd45',
-      img: 'images/bd45.png'
+      img: 'images/bd45.jpg'
     },
     {
       name: 'bd46',
-      img: 'images/bd46.png'
+      img: 'images/bd46.jpg'
     },
     {
       name: 'bd47',
-      img: 'images/bd47.png'
+      img: 'images/bd47.jpg'
     },
     {
       name: 'bd48',
-      img: 'images/bd48.png'
+      img: 'images/bd48.jpg'
     },
     {
       name: 'bd49',
-      img: 'images/bd49.png'
+      img: 'images/bd49.jpg'
     },
     {
       name: 'bd50',
-      img: 'images/bd50.png'
+      img: 'images/bd50.jpg'
     },
     {
       name: 'bd51',
-      img: 'images/bd51.png'
+      img: 'images/bd51.jpg'
     },
     {
       name: 'bd52',
-      img: 'images/bd52.png'
+      img: 'images/bd52.jpg'
     },
     {
       name: 'bd53',
-      img: 'images/bd53.png'
+      img: 'images/bd53.jpg'
     },
     {
       name: 'bd54',
-      img: 'images/bd54.png'
+      img: 'images/bd54.jpg'
     },
     {
       name: 'bd55',
-      img: 'images/bd55.png'
+      img: 'images/bd55.jpg'
     },
     {
       name: 'bd56',
-      img: 'images/bd56.png'
+      img: 'images/bd56.jpg'
     },
     {
       name: 'bd57',
-      img: 'images/bd57.png'
+      img: 'images/bd57.jpg'
     },
     {
       name: 'bd58',
-      img: 'images/bd58.png'
+      img: 'images/bd58.jpg'
     },
     {
       name: 'bd59',
-      img: 'images/bd59.png'
+      img: 'images/bd59.jpg'
     },
     {
       name: 'bd60',
-      img: 'images/bd60.png'
+      img: 'images/bd60.jpg'
     },
     {
       name: 'bd61',
-      img: 'images/bd61.png'
+      img: 'images/bd61.jpg'
     },
     {
       name: 'bd62',
-      img: 'images/bd62.png'
+      img: 'images/bd62.jpg'
     },
     {
       name: 'bd63',
-      img: 'images/bd63.png'
+      img: 'images/bd63.jpg'
     },
     {
       name: 'bd64',
-      img: 'images/bd64.png'
+      img: 'images/bd64.jpg'
     },
     {
       name: 'bd65',
-      img: 'images/bd65.png'
+      img: 'images/bd65.jpg'
     },
     {
       name: 'bd66',
-      img: 'images/bd66.png'
+      img: 'images/bd66.jpg'
     },
     {
       name: 'bd67',
-      img: 'images/bd67.png'
+      img: 'images/bd67.jpg'
     },
     {
       name: 'bd68',
-      img: 'images/bd68.png'
+      img: 'images/bd68.jpg'
     },
     {
       name: 'bd69',
-      img: 'images/bd69.png'
+      img: 'images/bd69.jpg'
     },
     {
       name: 'bd70',
-      img: 'images/bd70.png'
+      img: 'images/bd70.jpg'
     },
     {
       name: 'bd71',
-      img: 'images/bd71.png'
+      img: 'images/bd71.jpg'
     }
   ]
   var cardArray = []
@@ -298,8 +298,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const grid = document.querySelector('.memory-game')
   
   // <div class="memory-card">
-  //     <img src="images/bd1.png" alt="" class="front-face">
-  //     <img src="images/cheeseburger.png" alt="" class="back-face">
+  //     <img src="images/bd1.jpg" alt="" class="front-face">
+  //     <img src="images/cheeseburger.jpg" alt="" class="back-face">
   //   </div>
   function createBoard() {
     cardArray = []
@@ -326,7 +326,7 @@ document.addEventListener('DOMContentLoaded', () => {
       frontFace.classList.add('front-face')
       
       var backFace = document.createElement('img')
-      backFace.setAttribute('src','images/cardpattern.png')
+      backFace.setAttribute('src','images/cardpattern.jpg')
       backFace.classList.add('back-face')
       
       memoryCard.appendChild(frontFace)
