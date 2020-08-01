@@ -369,7 +369,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function restartGame(){
-    onOverlay();
+    setTimeout(() => {
+      onOverlay();
+    },1000);
     var playAgainButton = document.querySelector('.play-again')
     playAgainButton.addEventListener('click',offOverlay);
     
