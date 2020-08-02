@@ -286,6 +286,58 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: 'bd71',
       img: 'images/bd71.jpg'
+    },
+    {
+      name: 'bd72',
+      img: 'images/bd72.jpg'
+    },
+    {
+      name: 'bd73',
+      img: 'images/bd73.jpg'
+    },
+    {
+      name: 'bd74',
+      img: 'images/bd74.jpg'
+    },
+    {
+      name: 'bd75',
+      img: 'images/bd75.jpg'
+    },
+    {
+      name: 'bd76',
+      img: 'images/bd76.jpg'
+    },
+    {
+      name: 'bd77',
+      img: 'images/bd77.jpg'
+    },
+    {
+      name: 'bd78',
+      img: 'images/bd78.jpg'
+    },
+    {
+      name: 'bd79',
+      img: 'images/bd79.jpg'
+    },
+    {
+      name: 'bd80',
+      img: 'images/bd80.jpg'
+    },
+    {
+      name: 'bd81',
+      img: 'images/bd81.jpg'
+    },
+    {
+      name: 'bd82',
+      img: 'images/bd82.jpg'
+    },
+    {
+      name: 'bd83',
+      img: 'images/bd83.jpg'
+    },
+    {
+      name: 'bd84',
+      img: 'images/bd84.jpg'
     }
   ]
   var cardArray = []
