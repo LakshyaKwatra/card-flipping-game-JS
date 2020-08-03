@@ -514,6 +514,10 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: 'bd128',
       img: 'images/bd128.jpg'
+    },
+    {
+      name: 'bd129',
+      img: 'images/bd129.jpg'
     }
   ]
   var cardArray = []
