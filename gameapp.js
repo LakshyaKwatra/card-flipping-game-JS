@@ -338,6 +338,182 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: 'bd84',
       img: 'images/bd84.jpg'
+    },
+    {
+      name: 'bd85',
+      img: 'images/bd85.jpg'
+    },
+    {
+      name: 'bd86',
+      img: 'images/bd86.jpg'
+    },
+    {
+      name: 'bd87',
+      img: 'images/bd87.jpg'
+    },
+    {
+      name: 'bd88',
+      img: 'images/bd88.jpg'
+    },
+    {
+      name: 'bd89',
+      img: 'images/bd89.jpg'
+    },
+    {
+      name: 'bd90',
+      img: 'images/bd90.jpg'
+    },
+    {
+      name: 'bd91',
+      img: 'images/bd91.jpg'
+    },
+    {
+      name: 'bd92',
+      img: 'images/bd92.jpg'
+    },
+    {
+      name: 'bd93',
+      img: 'images/bd93.jpg'
+    },
+    {
+      name: 'bd94',
+      img: 'images/bd94.jpg'
+    },
+    {
+      name: 'bd95',
+      img: 'images/bd95.jpg'
+    },
+    {
+      name: 'bd96',
+      img: 'images/bd96.jpg'
+    },
+    {
+      name: 'bd97',
+      img: 'images/bd97.jpg'
+    },
+    {
+      name: 'bd98',
+      img: 'images/bd98.jpg'
+    },
+    {
+      name: 'bd99',
+      img: 'images/bd99.jpg'
+    },
+    {
+      name: 'bd100',
+      img: 'images/bd100.jpg'
+    },
+    {
+      name: 'bd101',
+      img: 'images/bd101.jpg'
+    },
+    {
+      name: 'bd102',
+      img: 'images/bd102.jpg'
+    },
+    {
+      name: 'bd103',
+      img: 'images/bd103.jpg'
+    },
+    {
+      name: 'bd104',
+      img: 'images/bd104.jpg'
+    },
+    {
+      name: 'bd105',
+      img: 'images/bd105.jpg'
+    },
+    {
+      name: 'bd106',
+      img: 'images/bd106.jpg'
+    },
+    {
+      name: 'bd107',
+      img: 'images/bd107.jpg'
+    },
+    {
+      name: 'bd108',
+      img: 'images/bd108.jpg'
+    },
+    {
+      name: 'bd109',
+      img: 'images/bd109.jpg'
+    },
+    {
+      name: 'bd110',
+      img: 'images/bd110.jpg'
+    },
+    {
+      name: 'bd111',
+      img: 'images/bd111.jpg'
+    },
+    {
+      name: 'bd112',
+      img: 'images/bd112.jpg'
+    },
+    {
+      name: 'bd113',
+      img: 'images/bd113.jpg'
+    },
+    {
+      name: 'bd114',
+      img: 'images/bd114.jpg'
+    },
+    {
+      name: 'bd115',
+      img: 'images/bd115.jpg'
+    },
+    {
+      name: 'bd116',
+      img: 'images/bd116.jpg'
+    },
+    {
+      name: 'bd117',
+      img: 'images/bd117.jpg'
+    },
+    {
+      name: 'bd118',
+      img: 'images/bd118.jpg'
+    },
+    {
+      name: 'bd119',
+      img: 'images/bd119.jpg'
+    },
+    {
+      name: 'bd120',
+      img: 'images/bd120.jpg'
+    },
+    {
+      name: 'bd121',
+      img: 'images/bd121.jpg'
+    },
+    {
+      name: 'bd122',
+      img: 'images/bd122.jpg'
+    },
+    {
+      name: 'bd123',
+      img: 'images/bd123.jpg'
+    },
+    {
+      name: 'bd124',
+      img: 'images/bd124.jpg'
+    },
+    {
+      name: 'bd125',
+      img: 'images/bd125.jpg'
+    },
+    {
+      name: 'bd126',
+      img: 'images/bd126.jpg'
+    },
+    {
+      name: 'bd127',
+      img: 'images/bd127.jpg'
+    },
+    {
+      name: 'bd128',
+      img: 'images/bd128.jpg'
     }
   ]
   var cardArray = []
