@@ -532,7 +532,11 @@ document.addEventListener('DOMContentLoaded', () => {
   // <div class="memory-card">
   //     <img src="images/bd1.jpg" alt="" class="front-face">
   //     <img src="images/cheeseburger.jpg" alt="" class="back-face">
-  //   </div>
+  //   </div> 
+  var flipSound = new Audio("music/flip.mp3");
+  var matchedSound = new Audio("music/matched.mp3");
+  var victorySound = new Audio("music/victory.mp3");
+
   function createBoard() {
     cardArray = []
     totalMatches = 0;
@@ -571,6 +575,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   function flipCard(){
     if(lockboard) return;
+    flipSound.play();
     this.classList.add('flip');
     if(!hasFlippedCard){
       hasFlippedCard = true;
@@ -585,7 +590,9 @@ document.addEventListener('DOMContentLoaded', () => {
       if(cardArray[firstCardId].name === cardArray[secondCardId].name){
         secondCard.removeEventListener('click', flipCard);
         totalMatches = totalMatches + 1;
+        matchedSound.play();
         if(totalMatches === cardArray.length/2){
+          victorySound.play();
           restartGame();
         }
       } else{
