@@ -576,9 +576,9 @@ document.addEventListener('DOMContentLoaded', () => {
   
   function flipCard(){
     if(lockboard) return;
-    flipSound.play();
     this.classList.add('flip');
     if(!hasFlippedCard){
+      flipSound.play();
       hasFlippedCard = true;
       firstCard = this;
       firstCard.removeEventListener('click', flipCard);
@@ -597,6 +597,7 @@ document.addEventListener('DOMContentLoaded', () => {
           restartGame();
         }
       } else{
+        flipSound.play();
         lockboard = true;
         setTimeout(() => {
           firstCard.addEventListener('click',flipCard);
