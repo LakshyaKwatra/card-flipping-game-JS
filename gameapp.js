@@ -534,6 +534,7 @@ document.addEventListener('DOMContentLoaded', () => {
   //     <img src="images/cheeseburger.jpg" alt="" class="back-face">
   //   </div> 
   var flipSound = new Audio("music/flip.mp3");
+  flipSound.playbackRate = 2;
   var matchedSound = new Audio("music/matched.mp3");
   var victorySound = new Audio("music/victory.mp3");
 
