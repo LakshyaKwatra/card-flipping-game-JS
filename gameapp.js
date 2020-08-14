@@ -534,6 +534,7 @@ document.addEventListener('DOMContentLoaded', () => {
   //     <img src="images/cheeseburger.jpg" alt="" class="back-face">
   //   </div> 
   var matchedSound = new Audio("music/matched.mp3");
+  matchedSound.playbackRate = 2;
   var victorySound = new Audio("music/victory.mp3");
 
   function createBoard() {
