@@ -533,8 +533,6 @@ document.addEventListener('DOMContentLoaded', () => {
   //     <img src="images/bd1.jpg" alt="" class="front-face">
   //     <img src="images/cheeseburger.jpg" alt="" class="back-face">
   //   </div> 
-  var flipSound = new Audio("music/flip.mp3");
-  flipSound.playbackRate = 3;
   var matchedSound = new Audio("music/matched.mp3");
   var victorySound = new Audio("music/victory.mp3");
 
@@ -578,7 +576,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if(lockboard) return;
     this.classList.add('flip');
     if(!hasFlippedCard){
-      flipSound.play();
       hasFlippedCard = true;
       firstCard = this;
       firstCard.removeEventListener('click', flipCard);
@@ -597,7 +594,6 @@ document.addEventListener('DOMContentLoaded', () => {
           restartGame();
         }
       } else{
-        flipSound.play();
         lockboard = true;
         setTimeout(() => {
           firstCard.addEventListener('click',flipCard);
